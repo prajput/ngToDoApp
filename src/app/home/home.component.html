@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="col">
+    <p>Add List</p>
+  </div>
+  <div class="col">
+    <p>Your List ({{itemCount}})</p>
+  </div>
+</div>
+<div class="container">
+  <div class="col">
+    <p>Use This</p>
+    <form>
+        <input type="text" name="item" placeholder="add item" [(ngModel)] = "goalText">
+        <input type="submit" [value]="btnText" (click)="addItem()">
+    </form>
+  </div>
+  <div class="col">
+    <p *ngFor = "let goal of goals; let i = index" (click)='removeItem(i)'>{{goal}}</p>
+  </div>
+</div>
