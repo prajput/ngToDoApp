@@ -25,3 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Generic Commands
+
+	- "npm install @angular/cli -g" //install angular command line interface globally
+	- "ng new <AppName> --style=scss --routing" //initiate new Application in build styling format scss and routing enabled
+	- "ng generate component <ComponentName>" or "ng g c <ComponentName>" // To generate new component
+	
